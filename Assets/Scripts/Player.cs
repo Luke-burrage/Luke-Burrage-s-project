@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
         {
             print("player pressed up");
             //transform.position = new Vector2(transform.position.x, transform.position.y + (6 * Time.deltaTime));
-            rb.velocity = new Vector2(0, 10);
+            rb.velocity = new Vector2(0, 15);
         }
 
         if (Input.GetKeyDown("down"))
